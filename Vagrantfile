@@ -80,6 +80,6 @@ Vagrant.configure("2") do |config|
      systemctl start httpd
      systemctl enabled httpd
      cd /tmp/
-     rm -rf /tmp/finance
+     rm -rf /tmp/page
    SHELL
 end
